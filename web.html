@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Specifications</title>
+    <link rel="stylesheet" href="web.css">
+    <style>
+        <style>
+        /* Add this CSS to your existing styles */
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Ensure video is behind other content */
+        }
+        .car-cards {
+            position: relative; /* Ensure cards are positioned above the video */
+            z-index: 1; /* Ensure cards are above the video */
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Specifications</h1>
+    </header>
+    <main>
+        <div class="car-cards">
+            <div class="car-card" onclick="location.href='car1.html'">
+                <img src="Tesla_Model_S-01@2x.jpg" alt="Car 1">
+                <h2>Car Model 1</h2>
+                <p>Tesla Model S</p>
+            </div>
+            <div class="car-card" onclick="location.href='car2.html'">
+                <img src="R8_Coupe_V10_performance-1.jpg" alt="Car 2">
+                <h2>Car Model 2</h2>
+                <p>Audi R8</p>
+            </div>
+            <div class="car-card" onclick="location.href='car3.html'">
+                <img src="Ford-Mustang-Left-Front-Three-Quarter-74324.webp" alt="Car 3">
+                <h2>Car Model 3</h2>
+                <p>Ford Mustang</p>
+            </div>
+            <div class="car-card" onclick="location.href='car4.html'">
+                <img src="bumblebee-chevy-camaro_827x510_51465184707.jpeg" alt="Car 4">
+                <h2>Car Model 4</h2>
+                <p>Chevrolet Camaro</p>
+            </div>
+            <div class="car-card" onclick="location.href='car5.html'">
+                <img src="Porsche_992_Turbo_S_1X7A0411.jpg" alt="Car 5">
+                <h2>Car Model 5</h2>
+                <p>Porsche 911 Turbo s</p>
+            </div>
+            <div class="car-card" onclick="location.href='car6.html'">
+                <img src="491d9504-f4c9-4121-968d-93aee7d90dd6.webp" alt="Car 6">
+                <h2>Car Model 6</h2>
+                <p>Bentley Continental GT</p>
+            </div>
+            <div class="car-card" onclick="location.href='car7.html'">
+                <img src="fa810000cc50b35d595e36cdca26b3b45ff0e7a8.webp" alt="Car 7">
+                <h2>Car Model 7</h2>
+                <p>Mercedes AMG GTR</p>
+            </div>
+            <div class="car-card" onclick="location.href='car8.html'">
+                <img src="aston-martin-db11-front.webp" alt="Car 8">
+                <h2>Car Model 8</h2>
+                <p>Astorn Martin DB11</p>
+            </div>
+            <div class="car-card" onclick="location.href='car9.html'">
+                <img src="bmwm5.webp" alt="Car 9">
+                <h2>Car Model 9</h2>
+                <p>BMW M5 Competition</p>
+            </div>
+            <div class="car-card" onclick="location.href='car10.html'">
+                <img src="front-left-side-47 (1).webp" alt="Car 10">
+                <h2>Car Model 10</h2>
+                <p>Lamborghini Aventador</p>
+                <video autoplay muted loop>
+                    <source src="4K Space Starfield Background(1080P_HD).mp4" type="video/mp4"> <!-- Replace with your video file -->
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+
+        </div>
+        
+    </main>
+</body>
+</html>
